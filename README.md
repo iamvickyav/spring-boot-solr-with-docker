@@ -77,6 +77,8 @@ http://localhost:8080/india/town/search?state=assam&district=Nalbari
    }
 ]
 ```
+
+### Paged Response
 http://localhost:8080/india/town/paged/search?page=10&size=0&state=gujarat
 
 ```json
