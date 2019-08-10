@@ -48,3 +48,122 @@ http://localhost:8080/india/town/search?page=10&size=0&district=porbandar&state=
 http://localhost:8080/india/town/search?page=10&size=0&state=gujarat
 
 ```
+
+## Response Sample:
+
+### UnPaged Response
+```json
+[  
+   {  
+      "category":"M.B",
+      "state":"Assam",
+      "district":"Nalbari",
+      "town_name":"Nalbari"
+   },
+   {  
+      "category":"M.B",
+      "state":"Assam",
+      "district":"Nalbari",
+      "town_name":"Nalbari"
+   },
+   {  
+      "category":"T.C",
+      "state":"Assam",
+      "district":"Nalbari",
+      "town_name":"Tihu"
+   }
+]
+```
+```json
+{
+   "content":[
+      {
+         "category":"M.B",
+         "state":"Assam",
+         "district":"Nalbari",
+         "town_name":"Nalbari"
+      },
+      {
+         "category":"M.B",
+         "state":"Assam",
+         "district":"Nalbari",
+         "town_name":"Nalbari"
+      },
+      {
+         "category":"T.C",
+         "state":"Assam",
+         "district":"Nalbari",
+         "town_name":"Tihu"
+      }
+   ],
+   "pageable":{
+      "sort":{
+         "sorted":false,
+         "unsorted":true,
+         "empty":true
+      },
+      "offset":0,
+      "pageSize":20,
+      "pageNumber":0,
+      "unpaged":false,
+      "paged":true
+   },
+   "facetResultPages":[
+
+   ],
+   "facetQueryResult":{
+      "content":[
+
+      ],
+      "pageable":"INSTANCE",
+      "totalPages":1,
+      "totalElements":0,
+      "last":true,
+      "size":0,
+      "numberOfElements":0,
+      "first":true,
+      "number":0,
+      "sort":{
+         "sorted":false,
+         "unsorted":true,
+         "empty":true
+      },
+      "empty":true
+   },
+   "highlighted":[
+
+   ],
+   "maxScore":null,
+   "fieldStatsResults":{
+
+   },
+   "suggestions":[
+
+   ],
+   "facetFields":[
+
+   ],
+   "facetPivotFields":[
+
+   ],
+   "allFacets":[
+      null
+   ],
+   "alternatives":[
+
+   ],
+   "totalPages":1,
+   "totalElements":3,
+   "size":20,
+   "numberOfElements":3,
+   "first":true,
+   "number":0,
+   "sort":{
+      "sorted":false,
+      "unsorted":true,
+      "empty":true
+   },
+   "last":true,
+   "empty":false
+}
+```
