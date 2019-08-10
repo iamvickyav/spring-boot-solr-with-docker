@@ -1,0 +1,22 @@
+categoryId,categoryCode,meaning
+1,C.B,Cantonment
+2,C.M.C,City Municipal Council
+3,C.T,Census Town 
+4,E.O,Estate Office
+5,G.P,Gram Panchayat
+6,I.N.A,Industrial Notified Area
+7,I.T.S,Industrial Township
+8,M,Municipality
+9,M.B,Municipal Board
+10,M.C,Municipal Committee
+11,M.Cl,Municipal Council
+12,M.Corp.,Municipal Corporation
+13,N.A,Notified Area
+14,N.A.C,Notified Area Committee
+15,N.P,Nagar Panchayat
+16,N.T,Notified Town.
+17,N.T.A,Notified Town Area
+18,S.T.C,Small Town Committee
+19,T.C,Town Committee
+20,T.M.C,Town Municipal Council
+21,T.P,Town Panchayat
