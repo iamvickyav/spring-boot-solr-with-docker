@@ -1,6 +1,6 @@
 # REST API using Spring Boot + Solr + Docker
 
-### Description
+## Description:
 
 This application exposes details of more than 13,800 Indian Towns via REST Endpoints
 
@@ -27,9 +27,9 @@ You can use find them here - [Indian Towns Details in CSV](https://github.com/ia
 ### Setup verification:
 You can verify the success of setup by visiting http://localhost:8983/solr in your browser & selecting the IndianTowns core
 
-## How to use
+## How to use:
 
-### REST Endpoints 
+### REST Endpoints
 
 ```
 http://localhost:8080/india/town/all
@@ -43,6 +43,3 @@ http://localhost:8080/india/town/search?page=10&size=0&district=porbandar&state=
 http://localhost:8080/india/town/search?page=10&size=0&state=gujarat
 
 ```
-
-
-
