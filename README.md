@@ -22,6 +22,11 @@ You can use find them here - [Indian Towns Details in CSV](https://github.com/ia
 > cd src/Docker/
 > docker-compose up
 ```
+ - Go back to Project root folder
+```
+> mvn clean install
+> java -jar target/IndianTownsAPI-0.0.1-SNAPSHOT.jar
+```
 
 **Thats it !!!** 
 ### Setup verification:
