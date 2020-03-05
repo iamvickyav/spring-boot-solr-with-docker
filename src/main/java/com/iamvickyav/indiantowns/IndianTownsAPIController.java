@@ -18,7 +18,7 @@ public class IndianTownsAPIController {
     IndianTownRepo repo;
 
     @RequestMapping(value = "/india/town/all", method = RequestMethod.GET)
-    Page<IndianTown> findAllIndianTown(@RequestParam(required = true) Integer page, @RequestParam(required = true) Integer size) {
+    Page<IndianTown> findAllIndianTown(@RequestParam(defaultValue = "0") Integer page, @RequestParam(defaultValue = "10") Integer size) {
         Page<IndianTown> pagedResult = repo.findAll(new PageRequest(page, size));
         return pagedResult;
     }
