@@ -18,14 +18,10 @@ You can use find them here - [Indian Towns Details in CSV](https://github.com/ia
  - [Install Docker](https://docs.docker.com/install/) 
  - Once installed, start the Docker application in your system
  - Once started, run the following commands
+
 ```
-> cd src/Docker/
-> docker-compose up
-```
- - Go back to Project root folder
-```
-> mvn clean install
-> java -jar target/IndianTownsAPI-0.0.1-SNAPSHOT.jar
+> mvn clean package
+> docker-compose up --build
 ```
 
 **Thats it !!!** 
